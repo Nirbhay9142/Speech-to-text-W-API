@@ -1,0 +1,44 @@
+body {
+    background-color: #dbdbdb;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+#text {
+    width: 500px;
+    height: 160px;
+    background-color: #cdcdcd;
+    border: none;
+    border-radius: 12px;
+    padding: 20px;
+    font-size: 24px;
+    margin: 2rem auto;
+    resize: none;
+    display: block;
+}
+
+.playButton {
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+    margin: 20px auto;
+}
+
+.playButton:hover {
+    box-shadow: 0 6px 20px 0 #00ff15;
+}
+
+.instruction {
+    display: block;
+    margin-top: 1rem;
+    color: #666;
+    font-size: 1.2rem;
+}
